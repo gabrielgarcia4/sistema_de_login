@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("/login/imagemlogin.jpg");
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+input{
+   display: block;
+   height: 55px;
+   width: 400px;
+   margin: 10px;
+   border-radius: 30px;
+   border: 1px solid black;
+   font-size: 16pt;
+   padding: 10px 10px;
+   background-color: rgba(255, 255, 255, 0.322);
+   color: white;
+   outline: none;
+}
+div#corpo-form{
+    /*background-color: green;*/
+    width: 420px;
+    margin: 120px auto 0px auto;
+}
+div#corpo-form h1{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+input[type=submit]{
+    background-color: rgba(0, 255, 42, 0.739);
+    border: none;
+    cursor: pointer;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+
+div#msg-sucesso{
+    width: 400px;
+    margin: 10px auto 10px auto;
+    background-color: rgba(50,205,50,.3);
+    border: 1px solid rgba(34,239,34);
+}
+div.msg-erro{
+    width: 400px;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.431);
+    border: 1px solid white;
+}
